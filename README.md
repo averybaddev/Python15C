@@ -28,3 +28,13 @@ Its purpose will be the UI and some small logic that will interact with the main
 
 
 For now this program stores all variables and settings temporarily, however I plan on adding permanent variable and setting storage (whilst respecting the HP15C's original storage conditions).
+
+The program is currently not meant to be used.
+The only way it can be used is by directly calling functions.
+The 1+1 example from before can be performed with the following sequence:
+calc.stack.add_element_to_stack(1)
+calc.stack.add_element_to_stack(1)
+calc.math.addition()
+(and optionally, since there is no display for now, you can do calc.stack.show_stack_for_debug() to show the result of the addition in the stack)
+
+There is no function for enter, as this has to be implemented later when the UI and display logic is going to be coded
