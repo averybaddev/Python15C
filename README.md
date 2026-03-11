@@ -25,3 +25,6 @@ This project currently consists of just 2 files.
 Py15C is the logic for the calculator.  
 python15c buttons and display is for... well, the buttons and display. However this file is currently completely useless and is just mostly random code that will probably be obsolete by the time I finish Py15C.  
 Its purpose will be the UI and some small logic that will interact with the main calculator logic (most notably clearing error messages at the press of any key).  
+
+
+For now this program stores all variables and settings temporarily, however I plan on adding permanent variable and setting storage (whilst respecting the HP15C's original storage conditions).
