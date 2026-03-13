@@ -1,0 +1,38 @@
+Intial versions from before v0.1 aren't written down.
+
+v0.1:
+Cleaned up some old useless code.
+Added descriptions to all the functions for better code readability.
+Made some progress on MathOps.to_h(), but it's unfinished.
+Added the following in MathOps:
+-natural_log()
+-natural_antilog()
+-common_log()
+-common_antilog()
+-hyperbolic_sine()
+-hyperbolic_arcsine()
+-hyperbolic_cosine()
+-hyperbolic_arccosine()
+-hyperbolic_tangent()
+-hyperbolic_arctangent()
+-power()
+-percent()
+-percent_difference()
+-polar_conversion()
+-rectangular_conversion()
+-permutations()
+-combinations()
+-random_number()
+-set_seed()
+-display_seed()
+New class added, DataManipulation to implement registers.
+Functions added to DataManipulation:
+-store()
+-recall()
+-x_exchange()
+-clear_regs()
+
+The register variables have been added to HP15C, where they are initialized to 0.
+The index register, as well as the expanded registers (not usable yet) have been added to HP15C.
+
+Updated the comment area at the bottom with a list of planned features/missing features.
