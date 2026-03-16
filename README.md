@@ -37,4 +37,4 @@ calc.stack.add_element_to_stack(1)
 calc.math.addition()
 (and optionally, since there is no display for now, you can do calc.stack.show_stack_for_debug() to show the result of the addition in the stack)
 
-There is no function for enter, as this has to be implemented later when the UI and display logic is going to be coded
+There is no use for enter(), as this requires further implementation when the UI and display logic is going to be coded
